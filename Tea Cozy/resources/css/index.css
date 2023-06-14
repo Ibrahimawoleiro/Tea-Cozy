@@ -1,0 +1,107 @@
+#body{
+    background-color: black;
+    opacity: 0.9;
+    color:seashell;
+    font-size: 22px;
+    font-family: Helvetica;
+}
+h1{
+    display: inline;
+}
+ul li{
+    text-decoration: underline;
+    display: inline;
+    margin: 10px;
+    
+}
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    background-color: black;
+    top: 0px;
+}
+.heading .left{
+    padding: 10px;
+    font-family: brush Script Mt;
+    font-size: 50px;
+}
+ul{
+    display:inline;
+    float:right;
+}
+header{
+    border-bottom: 1px solid seashell;
+}
+.background{
+    display: flex;
+    width:100%x;
+    height: 700px;
+    flex-grow: ;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1437so4*_ga*NzA3MTE2OTQwLjE2NDk3ODM0Nzg.*_ga_3LRZM6TM9L*MTY3MjgwODk0My4yMDQuMS4xNjcyODA4OTU4LjQ1LjAuMA..);
+    align-items: center;
+    background-size: cover;
+    margin: 0 5% ;
+    background-position: center;
+}
+.innerDiv{
+    width: 100%;
+    height: fit-content;
+    background-color: black;
+    padding: 0 0;
+}
+.innerDiv h2, .innerDiv h4{
+    text-align: center;
+}
+.secondheading{ 
+    width: 10005;
+    padding-top: 20px;
+}
+#mainflex{
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    top: 60px;
+}
+.second h2, .second h4{
+    text-align: center;
+}
+.pictures{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0% 5%;
+    text-align: center;
+}
+.pictures img{
+    height: 200px;
+    width: 300px;
+}
+.Locations{
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*laustp*_ga*NzA3MTE2OTQwLjE2NDk3ODM0Nzg.*_ga_3LRZM6TM9L*MTY3MjgwODk0My4yMDQuMS4xNjcyODExMDEwLjMwLjAuMA..);
+    background-position: center;
+    height: 500px;
+    background-size: cover;
+    margin: 0 5%;
+}
+.Locations .inLocation{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.Locations h4{
+    text-align: center;
+}
+.inLocation div{
+    background-color: black;
+    width: 300px;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    height: 200px;
+}
+h6{
+    margin-left: 20px;
+}
